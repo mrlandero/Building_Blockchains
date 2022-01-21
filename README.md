@@ -87,3 +87,29 @@ To use the 'Building_Blockchains' application, simply clone the repository and t
 Step 1: Select the block difficulty from the sidebar. This will increase the difficulty of the calculation that must be complete before adding the next block.
 
 ![Block Difficulty](block_difficulty.png)
+
+Step 2: Fill in the `sender` area with the numerical ID of the person sending information.
+
+![Sender ID](sender_id.png)
+
+Step 3: Fill in the `receiver` area with the numerical ID of the person receiving information.
+
+![Receiver ID](receiver_id.png)
+
+Step 4: Fill in the `amount` area with the value of the transaction.
+
+![Amount](amount.png)
+
+Step 5: Click the `Add Block` button to add the new block to the end of the chain.
+
+![Add Block](add_block.png)
+
+Step 6: Review the PyChain Ledger to verify the new block was added to the chain.
+
+![PyChain DF](pychain_df.png)
+
+As we can see in the preceding image, the `Sender ID` is 50. The `Receiver ID` is 854.The `amount` sent was $525.00. 
+Once we click the `Add Block` button, we should see our new block attached to the end of the table. We can see that clearly in this example. The "0" block is the Genesis block, or the first block of the chain. However, the "1" block in the table displays the information of our newly attached block. 
+
+Congratulations! You just added your first block to the blockchain. 
+
