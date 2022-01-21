@@ -19,3 +19,31 @@ This project leverages python 3.7 with the following packages:
 built on top of the Python programming language.<br>
 
 **[Hashlib Library](https://docs.python.org/3/library/hashlib.html)** - This module implements a common interface to many different secure hash and message digest algorithms. Included are the FIPS secure hash algorithms SHA1, SHA224, SHA256, SHA384, and SHA512.<br>
+
+## Installation Guide
+
+Before running the application first install the following dependencies:
+
+First, we need to verify that we have Streamlit installed. From your terminal, type the following command:
+
+```python
+conda list streamlit
+```
+
+If it is installed on your computer, you should see a similar message to this:
+
+![Streamlit List](streamlit_list.png)
+
+If it is not installed on your computer, you need to install it with the following command:
+
+```python
+pip install streamlit
+```
+
+That takes care of Streamlit.
+
+Now, let's verify that the Typing Library is installed. From your terminal, type the following command:
+
+```python
+conda list typing
+```
