@@ -78,3 +78,12 @@ We are done with the Pandas installation.
 
 We are now ready to start using the application.
 
+---
+
+## Usage
+
+To use the 'Building_Blockchains' application, simply clone the repository and type **streamlit run pychain.py** in your terminal.
+
+Step 1: Select the block difficulty from the sidebar. This will increase the difficulty of the calculation that must be complete before adding the next block.
+
+![Block Difficulty](block_difficulty.png)
