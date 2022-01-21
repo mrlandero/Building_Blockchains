@@ -47,3 +47,34 @@ Now, let's verify that the Typing Library is installed. From your terminal, type
 ```python
 conda list typing
 ```
+If it is installed on your computer, you should see a similar message to this:
+
+![Typing List](typing_list.png)
+
+If it is not installed on your computer, you need to install it with the following command:
+
+```python
+pip install typing
+```
+
+We are done installing the Typing Library
+
+Next, let's verify that the Pandas Library is installed. From your terminal, type the following command:
+
+```python
+conda list pandas
+```
+If it is installed on your computer, you should see a similar message to this:
+
+![Pandas List](pandas_list.png)
+
+If it is not installed on your computer, you need to install it with the following command:
+
+```python
+pip install pandas
+```
+
+We are done with the Pandas installation.
+
+We are now ready to start using the application.
+
