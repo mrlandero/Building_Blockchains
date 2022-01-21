@@ -113,3 +113,20 @@ Once we click the `Add Block` button, we should see our new block attached to th
 
 Congratulations! You just added your first block to the blockchain. 
 
+Step 7: Use the `Block Inspector` section to have another way to verify the creation of the new block. 
+
+![Block Inspector](block_inspector.png)
+
+For this example, we see that we clicked on the record for the newly created block. It has the same information as the PyChain Ledger from the previous step, however it also provides 2 additional pieces of information: 1) Displays the `prev_hash` from the preceding block. 2) Displays the `nonce` that solved the math calculations, given the difficulty level. 
+
+Step 8: Click on `Validate Chain` to verify that the entire chain is valid and secure. 
+
+![Validate Chain](validate_chain.png)
+
+In this example we can see that the result from clicking the `Validate Chain` button is `True`. This means that our blockchain has been validated and all of the information is verified. This means that the blockchain is secure for the time being. 
+If the result had been `False`, this is a redflag that something in one of the block might have changed, making the blockchain not secure. 
+
+Once you complete all of these steps, repeat them in order to add a new block, and for every block thereafter. 
+
+You can now add blocks to our PyChain and you can validate the information in the chain to verify its security. 
+
