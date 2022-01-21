@@ -130,3 +130,9 @@ Once you complete all of these steps, repeat them in order to add a new block, a
 
 You can now add blocks to our PyChain and you can validate the information in the chain to verify its security. 
 
+---
+
+## Contributors
+
+**Name:** Tony Landero<br>
+**Email:** mr.landero@gmail.com<br>
