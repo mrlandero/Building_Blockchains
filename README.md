@@ -136,3 +136,9 @@ You can now add blocks to our PyChain and you can validate the information in th
 
 **Name:** Tony Landero<br>
 **Email:** mr.landero@gmail.com<br>
+
+---
+
+## License
+
+MIT
